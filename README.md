@@ -1,23 +1,23 @@
 # Repo Analyzer Bot
 
-A Python tool that analyzes a GitHub user's repositories to summarize language usage and display visual insights.
+A Python tool that analyzes a GitHub user's public repositories to summarize language usage and display visual insights.
 
 ## Features
 
-Fetches public repositories using the GitHub API
-Summarizes the number of repos per language
-Visualizes language distribution with a pie chart
+- Fetches public repositories using the GitHub API  
+- Summarizes the number of repositories per programming language  
+- Visualizes language distribution with a pie chart  
 
 ## Project Structure
 
 ```
 repo-analyzer/
-├── main.py            # Entry point
-├── github_api.py      # GitHub data fetching
-├── analysis.py        # Language counting logic
-├── visualizer.py      # Pie chart generation
-├── README.md          # This file
-└── requirements.txt   # Dependencies
+├── main.py # Entry point of the application
+├── github_api.py # Handles GitHub API requests
+├── analysis.py # Counts language usage
+├── visualizer.py # Generates pie chart visualizations
+├── README.md # Project documentation
+└── requirements.txt # List of dependencies
 ```
 
 ## Installation
@@ -35,7 +35,7 @@ python main.py <github-username>
 Example:
 
 ```bash
-python main.py torvalds
+python main.py johnnkim
 ```
 
 ## Requirements
